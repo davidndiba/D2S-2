@@ -5,6 +5,7 @@ import Login from './pages/Login';
 import Overview from './components/Overview';
 import Servers from './components/Servers';
 import ExchangeSessions from './components/ExchangeSessions';
+import Mapping from './components/Mapping';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <Route path='overview' element={<Overview/>} />
           <Route path="servers/:id?" element={<Servers />} />
           <Route path='exchangesessions' element={<ExchangeSessions/>}/>
+          <Route path="mapping" element={<Mapping />} />
         </Routes>
       </div>
     </Router>
