@@ -1,0 +1,30 @@
+/* AdditionalContent.css */
+.additional-content-container {
+    padding: 20px;
+  }
+  
+  .additional-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .additional-table {
+    margin-top: 20px;
+  }
+  
+  .period-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .action-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .action-content button {
+    margin-right: 10px;
+  }
+  

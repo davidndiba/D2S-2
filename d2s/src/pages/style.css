@@ -31,3 +31,72 @@
   .outline-fill-default .text {
     color: #ffffff;
   }
+
+  .frame {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 92px;
+    padding: 0px 0px 20px;
+    width: 1085px;
+    position: relative;
+  }
+  .frame .text-wrapper {
+    align-self: stretch;
+    color: #111111;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 44px;
+    margin-top: -1px;
+    position: relative;
+  }
+  /* Add this to your existing CSS or create a new one */
+.navbar-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-icon {
+    margin-left: 10px; /* Adjust as needed */
+  }
+  
+  .user-name {
+    margin-left: 5px; /* Adjust as needed */
+    margin-right: 10px; /* Adjust as needed */
+  }
+  
+  .dropdown-arrow {
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .navbar-brand {
+    height: 24px;
+    width: 46px;
+    color: red;
+  }
+  .text-1{
+    width: 1085px;
+    height: 44px;
+    font: "Inter";
+    font-weight: 400;
+    size: 36px;
+    line-height: 44px;
+    color: #111111;
+  }
+  .text-2{
+    width: 1085px;
+    height: 64px;
+    font: "inter";
+    font-weight: 400;
+    size: 86px;
+    line-height: 44px;
+    color: #111111;
+    font-size: 36px;
+    font-family: "Inter-Regular", Helvetica;
+    top: 10;
+    letter-spacing: 0;
+    
+  }
