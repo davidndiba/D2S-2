@@ -75,7 +75,7 @@ const Sidebar = () => {
           </a>
         </li>
         <li>
-          <a href="/exchange-sessions">
+          <a href="/exchangesessions">
             <FontAwesomeIcon icon={faExchangeAlt} />
             Exchange Sessions
           </a>

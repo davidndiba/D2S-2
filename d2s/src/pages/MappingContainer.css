@@ -1,0 +1,50 @@
+/* MappingContainer.css */
+.mapping-container {
+    margin-top: 20px;
+  }
+  
+  .button-like-container-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px; /* Adjust as needed */
+  }
+  
+  .button-like-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 48%; /* Adjust as needed */
+  }
+  
+  .dropdown-arrow {
+    float: right;
+    font-size: 18px;
+  }
+  
+  .scrollable-container {
+    display: flex;
+    height: 200px; /* Set the height as needed */
+    overflow: auto;
+  }
+  
+  .half-container {
+    width: 50%;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .search-bar-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .search-bar-container input {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .btn-success {
+    background-color: green;
+    color: white;
+  }
+  

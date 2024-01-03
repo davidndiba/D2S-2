@@ -11,9 +11,9 @@ const NavBar = () => {
         {/* Home Link */}
         <Link className="navbar-brand" to="/overview">
           Home
+          Servers
+          Sessions
         </Link>
-
-        {/* Bell Icon and User Picture */}
         <div className="navbar-icons ml-auto">
           <FontAwesomeIcon icon={faBell} />
           <FontAwesomeIcon icon={faUser} className="user-icon" />

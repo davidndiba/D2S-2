@@ -1,0 +1,16 @@
+/* ServersTable.css */
+.servers-table-container {
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  .linked-sessions span {
+    margin-right: 5px; /* Adjust as needed */
+  }
+  
+  .view-more span {
+    margin-right: 5px; /* Adjust as needed */
+    cursor: pointer;
+  }
+  
+  /* Add any additional styling for your table */
+  

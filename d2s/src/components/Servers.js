@@ -1,5 +1,9 @@
 import React from 'react';
 import Sidebar from '../pages/SideView';
+import Navbar1 from '../pages/Navbar1';
+import ServersRow from '../pages/ServersRow';
+import SearchBar from '../pages/SearchBar'
+import ServersTable from '../pages/ServersTable';
 
 const Servers =() => {
     return(
@@ -9,7 +13,12 @@ const Servers =() => {
           <Sidebar />
         </div>
         <div className="col-md-9" id="content">
-            <h1>Servers</h1><hr/><br/>
+            <Navbar1/>
+            <h1>Servers</h1>
+            <h2>DHIS2 Instances</h2>
+            <ServersRow/>
+            <SearchBar/>
+            <ServersTable/>
         </div>
         </div>
         </div>

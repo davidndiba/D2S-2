@@ -1,0 +1,36 @@
+/* NewSessionsContainer.css */
+.new-sessions-container {
+    margin-top: 20px;
+  }
+  
+  .button-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px; /* Adjust as needed */
+  }
+  
+  .button-row button {
+    width: 25%;
+  }
+  
+  .section-title {
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  .button-like-container-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px; /* Adjust as needed */
+  }
+  
+  .button-like-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 48%; /* Adjust as needed */
+  }
+  
+  .dropdown-arrow {
+    float: right;
+    font-size: 18px;
+  }
+  

@@ -1,0 +1,25 @@
+/* MappedUnitsTable.css */
+.mapped-units-table {
+    margin-top: 20px;
+  }
+  
+  .table th, .table td {
+    text-align: center;
+  }
+  
+  .button-row {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .btn-primary {
+    background-color: blue;
+    color: white;
+  }
+  
+  .btn-secondary {
+    background-color: grey;
+    color: white;
+  }
+  
