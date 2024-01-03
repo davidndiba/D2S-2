@@ -1,0 +1,33 @@
+/* Placeholder styles for OutlineFillDefault */
+:root{
+    --cyan-20:rgba(5, 147, 184, 1);
+}
+.outline-fill-default {
+    background-color: #3498db;
+    width: 112px;
+    height: 40px;
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    gap: 8px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Placeholder styles for PrimaryButton */
+  .design-component-instance-node .text {
+    /* background-color: #0593B8; */
+    color: var(--cyan-c20);
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    line-height: 16px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  .outline-fill-default .text {
+    color: #ffffff;
+  }

@@ -1,0 +1,284 @@
+/* Login.css */
+:root {
+    --body-medium-font-family: "Inter-Regular", Helvetica;
+    --body-medium-font-size: 14px;
+    --body-medium-font-style: normal;
+    --body-medium-font-weight: 400;
+    --body-medium-letter-spacing: 0.25px;
+    --body-medium-line-height: 20px;
+    --button-drop-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.07);
+    --cyan-c20: rgba(5, 147, 184, 1);
+    --neutral-n10: rgba(17, 17, 17, 1);
+    --neutraln-30: rgba(242, 242, 242, 1);
+    --neutraln-50: rgba(255, 255, 255, 1);
+    --purple-p30: rgba(47, 40, 110, 1);
+  }
+  
+.login-container {
+    height: 100vh; /* Make the container take the full height of the viewport */
+  }
+  
+  .image-container {
+    background-color: #001234; /* Set your desired background color */
+  }
+  .image-container img{
+    width: 666px;
+    height: 459px;
+
+  }
+  
+  .form-container {
+    background-color: #ffffff; /* Set your desired background color */
+  }
+  
+  .text-container {
+    background-color: #001234; /* Set your desired background color */
+  }
+  
+  .login-form {
+    width: fixed 640px;
+    height: fixed 355px;
+    top: 471px;
+    left: 846px;
+    gap: 50px;
+  }
+   
+  .class{
+    width: 436px;
+    height: 54px;
+    font: "inter", sans-serif;
+    font-weight: 400;
+    size: 32px;
+    line-height: 44px;
+  }
+  .text {
+    align-items: flex-start;
+    background-color: #001234e6;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 500px;
+    padding: 60px 50px 50px 77px;
+    position: relative;
+    width: 550px;
+  }
+  
+  .text .body-large {
+    align-self: stretch;
+    height: 111px;
+    color: white;
+    position: relative;
+    width: 100%;
+  }
+  
+  .text .display-large {
+    align-self: stretch;
+    color: #ffffff;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 52px;
+    position: relative;
+  }
+  
+  .text .text-wrapper {
+    color: #ffffff;
+    font-family: var(--body-large-font-family);
+    font-size: var(--body-large-font-size);
+    font-style: var(--body-large-font-style);
+    font-weight: var(--body-large-font-weight);
+    letter-spacing: var(--body-large-letter-spacing);
+    line-height: var(--body-large-line-height);
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+   .div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 105px;
+    margin-bottom: -12px;
+    position: relative;
+    width: 307px;
+  }
+  
+  .text .dhis-wrapper {
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    gap: 50px 40px;
+    position: relative;
+  }
+  
+  .text .dhis {
+    height: 72px;
+    margin-bottom: -9px;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-top: -1px;
+    mix-blend-mode: multiply;
+    object-fit: cover;
+    position: relative;
+    gap: 50px 40px;
+    width: 214px;
+  }
+  
+  .frame .image {
+    height: 28px;
+    object-fit: cover;
+    position: relative;
+    width: 182px;
+  }
+  .text .dhis-image {
+    /* Styles for the first image */
+    width: 150px; /* Set the desired width */
+    height: 50px; /* Set the desired height */
+  }
+  
+  .text .dhis-image1 {
+    /* Styles for the second image */
+    width: 100px; /* Set the desired width */
+    height: 70px; /* Set the desired height */
+  }
+  
+  .text .dhis-image2 {
+    /* Styles for the third image */
+    width: 180px; /* Set the desired width */
+    height: 73px; /* Set the desired height */
+  }
+  
+  .text .dhis-image3 {
+    /* Styles for the fourth image */
+    width: 176px; /* Set the desired width */
+    height: 74px; /* Set the desired height */
+  }
+  .frame {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    height: 355px;
+    position: relative;
+    width: 640px;
+  }
+  
+  .frame .div {
+    color: #111111;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    height: 54px;
+    letter-spacing: 0;
+    line-height: 44px;
+    margin-top: -1px;
+    position: relative;
+    width: 436px;
+  }
+  
+  .frame .div-2 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 146px;
+    position: relative;
+    width: 555px;
+  }
+  
+  .frame .password {
+    align-self: stretch;
+    background-color: var(--neutraln-50);
+    border: 1px solid;
+    border-color: var(--neutraln-30);
+    border-radius: 12px;
+    color: var(--neutral-n10);
+    flex: 1;
+    font-family: var(--body-medium-font-family);
+    font-size: var(--body-medium-font-size);
+    font-style: var(--body-medium-font-style);
+    font-weight: var(--body-medium-font-weight);
+    height: 72px;
+    letter-spacing: var(--body-medium-letter-spacing);
+    line-height: var(--body-medium-line-height);
+    padding: 4px 24px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .frame .div-wrapper {
+    align-items: center;
+    align-self: stretch;
+    background-color: var(--neutraln-50);
+    border: 1px solid;
+    border-color: var(--neutraln-30);
+    border-radius: 12px;
+    display: flex;
+    gap: 10px;
+    height: 72px;
+    margin-bottom: -14px;
+    padding: 4px 24px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .frame .label {
+    color: var(--neutral-n10);
+    flex: 1;
+    font-family: var(--body-medium-font-family);
+    font-size: var(--body-medium-font-size);
+    font-style: var(--body-medium-font-style);
+    font-weight: var(--body-medium-font-weight);
+    letter-spacing: var(--body-medium-letter-spacing);
+    line-height: var(--body-medium-line-height);
+    position: relative;
+  }
+  
+  .frame .outline-fill-default-instance {
+    background-color: #0492b7 !important;
+    border-radius: unset !important;
+    flex: 0 0 auto !important;
+  }
+  
+  .frame .primary-button-instance {
+    height: 27px !important;
+    margin-bottom: -62px !important;
+  }
+  
+  .frame .design-component-instance-node {
+    color: #0492b7 !important;
+  }
+  .primary-button-instance{
+    align-items: flex-start;
+    display: inline-flex;
+    position: relative;
+  }
+  .primary-button-instance .text {
+   width: 251px;
+   height: 27px;
+   color: #0593B8;
+}
+.forgot-pass {
+    color: #EF6C00;
+    cursor: pointer;
+    text-decoration: none;
+    width: 177px;
+    height: 27px;
+    top: 827px;
+    left: 846px;
+}
+.outline-fill-default-instance{
+    color: #0593B8;
+    width: 112px;
+    height: 40px;
+    padding: 10px 20px 10px 20px;
+    gap: 8px;
+}
+  
+  
+  /* Add more styles as needed */
+  
