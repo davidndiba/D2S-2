@@ -141,10 +141,10 @@ function Register() {
                 </Link>
               </div>
               <div className="text-section">
-                <Link to="/payment-information" className="section-number">
+                <Link to="/paymentinformation" className="section-number">
                   <span className="section-number">3</span>
                 </Link>
-                <Link to="/payment-information" className="section-title">
+                <Link to="/paymentinformation" className="section-title">
                   <span className="section-number-3">Payment Information</span>
                 </Link>
               </div>

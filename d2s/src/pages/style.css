@@ -1,4 +1,4 @@
-/* Placeholder styles for OutlineFillDefault */
+/* Placeholder styles for OutlineFillDefault */ 
 :root{
     --cyan-20:rgba(5, 147, 184, 1);
 }
@@ -12,11 +12,8 @@
     border: 2px solid #3498db;
     border-radius: 5px;
     cursor: pointer;
-  }
-  
-  /* Placeholder styles for PrimaryButton */
+  }  
   .design-component-instance-node .text {
-    /* background-color: #0593B8; */
     color: var(--cyan-c20);
     font-family: "Inter-Bold", Helvetica;
     font-size: 12px;
@@ -53,19 +50,18 @@
     margin-top: -1px;
     position: relative;
   }
-  /* Add this to your existing CSS or create a new one */
 .navbar-icons {
     display: flex;
     align-items: center;
   }
   
   .user-icon {
-    margin-left: 10px; /* Adjust as needed */
+    margin-left: 10px; 
   }
   
   .user-name {
-    margin-left: 5px; /* Adjust as needed */
-    margin-right: 10px; /* Adjust as needed */
+    margin-left: 5px; 
+    margin-right: 10px;
   }
   
   .dropdown-arrow {
@@ -134,4 +130,99 @@
     background-color: white;
     color: blue;
   }
+  /* .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
   
+  .rectangular-bar {
+    height: 12px;
+    width: 12px;
+    border-radius: 1000px;
+    margin-top: 5px;
+  }
+  
+  .green {
+    background-color: #009DAE;
+  }
+  
+  .red {
+    background-color: #2979FF;
+  }
+  
+  .blue {
+    background:#ba3b70;;
+  }
+  .content-item-1{
+    width: 257px;
+    height: 115px;
+    border-radius: 12px;
+    padding: 30px;
+    gap: 16px;
+    color: #2f286e;
+  }
+  .content-item-2{
+    width: 197px;
+    height: 32px;
+    font: "inter";
+    font-weight: 400;
+    size: 24px;
+    line-height: 32px;
+  } */
+  .additional-content-container-1{
+    color: black;
+  }
+  
+  .content-item-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .button-container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .rectangular-bar {
+    height: 12px;
+    width: 12px;
+    border-radius: 1000px;
+    margin-right: 5px; /* Adjust as needed */
+  }
+  
+  .green {
+    background-color: #009DAE;
+  }
+  
+  .red {
+    background-color: #2979FF;
+  }
+  
+  .blue {
+    background: #ba3b70;
+  }
+  
+  .content-item {
+    width: 257px;
+    height: 115px;
+    border-radius: 12px;
+    padding: 30px;
+    gap: 16px;
+    color: #2f286e;
+  }
+  
+  .content-item img {
+    max-width: 60px; /* Ensure the image doesn't exceed its container */
+  }
+  .overview-content-container-1{
+    color: #2f286e;
+    width: 1px;
+    height: 38px;
+    font: "inter";
+    font-weight: 400;
+    size: 22px;
+  }

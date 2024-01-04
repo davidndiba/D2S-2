@@ -1,16 +1,35 @@
 /* AdditionalContent.css */
 .additional-content-container {
     padding: 20px;
+    width: 100%;
   }
-  
+  .additional-content-container-1{
+    font: "inter";
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #2f286e;
+  }
   .additional-item {
-    border: 1px solid #ccc;
-    padding: 15px;
+    border: 10px black;
+    border-radius: 12px;
+    height: 182px;
+    width: 348.33px;
+    gap: 16px;
+    padding: 30px;
     margin-bottom: 15px;
   }
   
   .additional-table {
-    margin-top: 20px;
+    width: 100%;
+    height: 16px;
+    top: 31px;
+    left: 28px;
+    font: "inter";
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    color: #000;
   }
   
   .period-content {
@@ -27,4 +46,119 @@
   .action-content button {
     margin-right: 10px;
   }
+  .additional-item-1{
+    color: #2f286e;
+    font: "inter";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+  }
+  .additional-item-2{
+    font: "inter";
+    font-weight: 400;
+    size: 24px;
+    line-height: 32px;
+    color: #111;
+  }
+  .additional-item-3{
+    font: "inter";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+  }
+  .additional-item-4{
+    font: "inter";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+  }
+  .additional-table-1{
+    width: 100%;
+    height: 26.93px;
+    top: 85.89px;
+    left: 28px;
+    font: "inter";
+    font-weight: 500;
+    size: 11px;
+    line-height: 28px;
+    padding-left: 20px;
+  }
+  .button-text {
+    color: white; 
+    font-size: 14px; 
+    margin: 0; 
+  }
   
+  .rectangular-bar-green{
+    height: 15px;
+    width: 160px;
+    border-radius: 1000px;
+    margin-top: 5px; 
+  }
+  
+  .rectangular-bar-green {
+    background-color: #009DAE;
+  }
+  .rectangular-bar-green-1{
+    height: 20px;
+    width: 200px;
+    border-radius: 100px;
+    margin-top: 5px; 
+  }
+  
+  .rectangular-bar-green-1 {
+    background-color: #009DAE;
+  }
+  .rectangular-bar-green-2{
+    height: 20px;
+    width: 200px;
+    border-radius: 100px;
+    margin-top: 5px; 
+  }
+  
+  .rectangular-bar-green-2 {
+    background-color: #00BA34;
+  }
+  .rectangular-bar-green-3{
+    height: 20px;
+    width: 200px;
+    border-radius: 100px;
+    margin-top: 5px; 
+  }
+  
+  .rectangular-bar-green-3 {
+    background-color: #855cf8;
+  }
+  .rectangular-bar-green-4{
+    height: 20px;
+    width: 200px;
+    border-radius: 100px;
+    margin-top: 5px; 
+  }
+  
+  .rectangular-bar-green-4 {
+    background-color: #F98600;
+  }
+  .rectangular-bar-green-4{
+    height: 20px;
+    width: 200px;
+    border-radius: 100px;
+    margin-top: 5px; 
+  }
+  
+  .rectangular-bar-green-4 {
+    background-color: #F98600;
+  }
+  .rectangular-bar-green-4{
+    height: 20px;
+    width: 200px;
+    border-radius: 100px;
+    margin-top: 5px; 
+  }
+  
+  .rectangular-bar-green-4 {
+    background-color: #F98600;
+  }

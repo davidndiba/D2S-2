@@ -8,6 +8,8 @@ import ExchangeSessions from './components/ExchangeSessions';
 import Mapping from './components/Mapping';
 import Register from './pages/Register';
 import OrganizationDetails from './pages/OrganizationDetails';
+import PaymentInformation from './pages/PaymentInformation';
+import PaymentInformation_1 from './pages/PaymentInformation_1';
 
 const App = () => {
   return (
@@ -16,6 +18,8 @@ const App = () => {
           <Route path="/login" element={<Login />} />
           <Route path='/register' element={<Register/>} />
           <Route path='/organizationdetails' element={<OrganizationDetails/>} />
+          <Route path='/paymentinformation' element={<PaymentInformation/>} />
+          <Route path='/paymentinformation_1' element={<PaymentInformation_1/>} />
           <Route path="/" element={<Login />}>
             <Route index element={<Servers />} />
             <Route path="servers/*" element={<Servers />} />
