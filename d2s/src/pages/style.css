@@ -100,3 +100,38 @@
     letter-spacing: 0;
     
   }
+
+  .text-container {
+    width: 100%;
+    background-color: blue;
+    padding: 20px;
+    color: white;
+  }
+  
+  .text-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .section-number {
+    width: 24px;
+    height: 24px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+  }
+  
+  .section-title {
+    font-weight: bold;
+  }
+  
+  .section-number:hover {
+    background-color: white;
+    color: blue;
+  }
+  

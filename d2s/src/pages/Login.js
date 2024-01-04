@@ -44,15 +44,15 @@ function Login() {
                 <label htmlFor="password">Password:</label>
                 <input id="password" type="password" placeholder="Enter your password" />
               </div>
-              <button type="button" className="sign-in-button">
+              <Link to="/overview" className="sign-in-button">
                 Sign In
-              </button>
+              </Link>
               <div className="form-links">
                 <a href="#!" className="forgot-password">
                   Forgot your password?
                 </a>
                 <span className="divider"> | </span>
-                <Link to="/signup" className="create-account">
+                <Link to="/register" className="create-account">
                   Don't have an account? Create one
                 </Link>
               </div>
