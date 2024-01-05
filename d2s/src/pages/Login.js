@@ -73,6 +73,7 @@
 
 // export default Login;
 import React from "react";
+import { Link } from 'react-router-dom';
 import {
   MDBContainer,
   MDBCard,
@@ -133,20 +134,23 @@ const Login = () => {
                 </label>
                 <MDBInput id="password" type="password" size="lg" />
               </div>
-
+              <Link to="/overview">
               <button className="btn btn-primary mb-4 px-5" type="button">
                 Sign In
               </button>
+              </Link>
 
               <a className="small text-muted" href="#!">
                 Forgot password?
               </a>
+              <Link to="/register">
               <p className="mb-5 pb-lg-2" style={{ color: "#393f81" }}>
                 Don't have an account?{" "}
                 <a href="#!" style={{ color: "#393f81" }}>
                   Create one
                 </a>
               </p>
+              </Link>
 
               <div className="d-flex flex-row justify-content-start">
                 <a href="#!" className="small text-muted me-1">
