@@ -8,25 +8,25 @@ const ServersTable = () => {
       <table className="table servers-table">
         <thead>
           <tr>
-            <th>Server Name</th>
-            <th>Server URL</th>
-            <th>Last Sync Date</th>
-            <th>Sync Status</th>
-            <th>Linked Sessions</th>
-            <th>View More</th>
+            <th className='table-servers-table-1'>Server Name</th>
+            <th className='table-servers-table-1'>Server URL</th>
+            <th className='table-servers-table-1'>Last Sync Date</th>
+            <th className='table-servers-table-1'>Sync Status</th>
+            <th className='table-servers-table-1'>Linked Sessions</th>
+            <th className='table-servers-table-1'>View More</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>KHIS Server</td>
-            <td>http://khis.health.go.ke</td>
-            <td>17/07/2023 13:00</td>
-            <td>Complete</td>
+            <td className='table-server-table-2'>KHIS Server</td>
+            <td className='table-server-table-3'>http://khis.health.go.ke</td>
+            <td className='table-server-table-4'>17/07/2023 13:00</td>
+            <td className='table-server-table-5'>Complete</td>
             <td>
               <div className="linked-sessions">
-                <span>Icon 1</span>
-                <span>Icon 2</span>
-                <span>Icon 3</span>
+              <span className="material-symbols-outlined-1">&#xe8b6;</span>
+              <span className="material-symbols-outlined-2">&#xe8b6;</span>
+              <span className="material-symbols-outlined-3">&#xe8b6;</span>
               </div>
             </td>
             <td>
@@ -37,15 +37,15 @@ const ServersTable = () => {
             </td>
           </tr>
           <tr>
-            <td>3PM Server</td>
-            <td>http://3pm.nascop.org</td>
-            <td>12/07/2023 12:20</td>
-            <td>Complete</td>
+            <td className='table-server-table-2'>3PM Server</td>
+            <td className='table-server-table-3'>http://3pm.nascop.org</td>
+            <td className='table-server-table-4'>12/07/2023 12:20</td>
+            <td className='table-server-table-5'>Complete</td>
             <td>
               <div className="linked-sessions">
-                <span>Icon 1</span>
-                <span>Icon 2</span>
-                <span>Icon 3</span>
+              <span className="material-symbols-outlined-1">&#xe8b6;</span>
+              <span className="material-symbols-outlined-2">&#xe8b6;</span>
+              <span className="material-symbols-outlined-3">&#xe8b6;</span>
               </div>
             </td>
             <td>
@@ -56,15 +56,15 @@ const ServersTable = () => {
             </td>
           </tr>
           <tr>
-            <td>DATIM Server</td>
-            <td>http://datim.org</td>
-            <td>01/07/2023 04:25</td>
-            <td>Pending</td>
+            <td className='table-server-table-2'>DATIM Server</td>
+            <td className='table-server-table-3'>http://datim.org</td>
+            <td className='table-server-table-5'>01/07/2023 04:25</td>
+            <td className='table-server-table-5'>Pending</td>
             <td>
               <div className="linked-sessions">
-                <span>Icon 1</span>
-                <span>Icon 2</span>
-                <span>Icon 3</span>
+              <span className="material-symbols-outlined-1">&#xe8b6;</span>
+              <span className="material-symbols-outlined-2">&#xe8b6;</span>
+              <span className="material-symbols-outlined-3">&#xe8b6;</span>
               </div>
             </td>
             <td>
@@ -75,15 +75,15 @@ const ServersTable = () => {
             </td>
           </tr>
           <tr>
-            <td>DHIS2 Server 1</td>
-            <td>http://dhisserver2.com</td>
-            <td>17/07/2023 13:00</td>
-            <td>Failed</td>
+            <td className='table-server-table-2'>DHIS2 Server 1</td>
+            <td className='table-server-table-3'>http://dhisserver2.com</td>
+            <td className='table-server-table-6'>17/07/2023 13:00</td>
+            <td className='table-server-table-5'>Failed</td>
             <td>
               <div className="linked-sessions">
-                <span>Icon 1</span>
-                <span>Icon 2</span>
-                <span>Icon 3</span>
+              <span className="material-symbols-outlined-1">&#xe8b6;</span>
+              <span className="material-symbols-outlined-2">&#xe8b6;</span>
+              <span className="material-symbols-outlined-3">&#xe8b6;</span>
               </div>
             </td>
             <td>
@@ -94,15 +94,15 @@ const ServersTable = () => {
             </td>
           </tr>
           <tr>
-            <td>DHIS2 Server 3</td>
-            <td>http://dhisserver3.org</td>
-            <td>17/07/2023 13:00</td>
-            <td>Failed</td>
+            <td className='table-server-table-2'>DHIS2 Server 3</td>
+            <td className='table-server-table-3'>http://dhisserver3.org</td>
+            <td className='table-server-table-6'>17/07/2023 13:00</td>
+            <td className='table-server-table-5'>Failed</td>
             <td>
               <div className="linked-sessions">
-                <span>Icon 1</span>
-                <span>Icon 2</span>
-                <span>Icon 3</span>
+              <span className="material-symbols-outlined-1">&#xe8b6;</span>
+              <span className="material-symbols-outlined-2">&#xe8b6;</span>
+              <span className="material-symbols-outlined-3">&#xe8b6;</span>
               </div>
             </td>
             <td>
