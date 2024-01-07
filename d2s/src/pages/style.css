@@ -99,9 +99,8 @@
 
   .text-container {
     width: 100%;
-    background-color: blue;
-    padding: 20px;
-    color: white;
+    background-color: #001234;
+    padding: 50px;
   }
   
   .text-section {
@@ -112,21 +111,35 @@
   }
   
   .section-number {
-    width: 24px;
-    height: 24px;
-    border: 2px solid white;
-    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: 1px;
+    border-radius: 1000px;
     display: flex;
+    flex-direction: column;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    letter-spacing: 0;
+    color: #ffffffe6;
+    font-family: "Inter-SemiBold", Helvetica;
+    padding: 10px;
+    font-size: 24px;
+    line-height: 32px;
+    gap: 10px;
     align-items: center;
     justify-content: center;
-    margin-right: 10px;
   }
   
   .section-title {
     font-weight: bold;
+    font: "inter";
+    font-weight: 400;
+    padding-left: 20px;
+    color: #ffffff;
   }
   
-  .section-number:hover {
+  .circle-circle-red-border:hover {
     background-color: white;
     color: blue;
   }
@@ -134,6 +147,15 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+  }
+  .mb-4-text-primary-font-weight-bold{
+    width: 529px;
+    height: 52px;
+    font: "inter";
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 52px;
+    color: #ffffff;
   }
   
   /* .rectangular-bar {
@@ -228,4 +250,58 @@
     size: 22px;
     padding: 0px;
   }
-  
+  .mb-5-text-primary-font-weight-bold{
+   width: 620px;
+   height: 44px;
+   top: 256px; 
+   left: 809px;
+   font: 'inter';
+   font-weight: 400;
+   font-size: 36px;
+   line-height: 44px;
+   color: #111111;
+  }
+  .form-group{
+    width: 600px;
+    height: 92px;
+    top: 80px;
+    left: -941px;
+    color: #0593b8;
+  }
+  .section-number-1{
+    height: 32px;
+    width: 310px;
+    color: #ffffffe6;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 32px;
+    position: relative;
+    top: 0;
+    width: 310px;
+  }
+  .circle-circle-red-border{
+    width: 310px;
+    height: 32px;
+    font: "inter";
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    color: #ffffffe6;
+  }
+  .text-white-mb-3{
+    height: 32px;
+    width: 310px;
+    color: #ffffffe6;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 32px;
+    position: relative;
+    top: 0;
+    width: 310px;
+  }
