@@ -305,3 +305,24 @@
     top: 0;
     width: 310px;
   }
+  .mb-3-text-center-text-primary-font-weight-bold{
+    width: 620px;
+    height: 40px;
+    font: "inter";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    align-items: center;
+    color: #4A4A4A;
+  }
+  .mb-3-text-center-text-primary-font-weight-bold-1{
+    width: 475px;
+    height: 88px;
+    font: "inter";
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    align-items: center;
+    color: #111111;
+  }
